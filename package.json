@@ -1,0 +1,16 @@
+{
+    "name": "jstetris",
+    "version": "1.0.0",
+    "description": "tetris game developed in javaScript",
+    "main": "app.js",
+    "scripts": {
+        "test": "tests",
+        "start": "server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "ike-njoku David . C.",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
