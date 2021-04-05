@@ -36,3 +36,22 @@ html {
     width: 20px;
     margin: 0px;
 }
+
+
+/* define colours for the tetraminoes */
+
+.T-tetramino {
+    background-color: indigo;
+}
+
+.L-tetramino {
+    background-color: maroon;
+}
+
+.Z-tetramino {
+    background-color: orangered;
+}
+
+.Sqr-tetramino {
+    background-color: lime;
+}
