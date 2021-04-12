@@ -1,79 +1,18 @@
-/* define the grid container */
-
-
-/* grid */
+body {
+    width: 100%;
+}
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-
-/* remove default margins */
-
-body,
-html {
-    margin: 0px;
-    padding: 0px;
-}
-
-
-/* give the main container margins of 5% for the top and sides, and a max-width of 50% */
-
-.container {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    width: 50%;
-}
-
-
-/* split the grid container into 15 columns */
-
-.gridContainer {
     display: grid;
     grid-template-columns: repeat(15, 0fr);
 }
 
-
-/* define the grids in the grid container ... make the grid 20px sqr and a border of 1px , grey */
-
-.gridContainer div {
-    border: solid 1px gray;
+.grid div {
     height: 20px;
     width: 20px;
-    margin: 0px;
-}
-
-
-/* define colours for the tetraminoes */
-
-.T-tetramino {
-    background-color: indigo;
-}
-
-.L-tetramino {
-    background-color: maroon;
-}
-
-.Z-tetramino {
-    background-color: orangered;
-}
-
-.Sqr-tetramino {
-    background-color: lime;
-}
-
-.col-3 {
-    grid-column: span 4;
-}
-
-button {
-    outline: none;
-    margin: 1%;
-    border: none;
-    background-color: lightgrey;
-    padding: 2%;
-    cursor: pointer;
     border: solid 1px grey;
 }
