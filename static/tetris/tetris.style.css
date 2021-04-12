@@ -1,6 +1,14 @@
 /* define the grid container */
 
 
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
 /* remove default margins */
 
 body,
@@ -54,4 +62,18 @@ html {
 
 .Sqr-tetramino {
     background-color: lime;
+}
+
+.col-3 {
+    grid-column: span 4;
+}
+
+button {
+    outline: none;
+    margin: 1%;
+    border: none;
+    background-color: lightgrey;
+    padding: 2%;
+    cursor: pointer;
+    border: solid 1px grey;
 }
